@@ -8,6 +8,6 @@ https://www.byvoid.com/project/node
 
 > ##改进：
 > 1. 使用Express 3.0
-> 2. 增加用户名、口令校验
+> 2. 增加用户名、口令校验，见./mypackage/inputValidation.js
 > 3. 改进了一些用户体验
 
