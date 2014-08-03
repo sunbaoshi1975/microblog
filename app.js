@@ -2,7 +2,6 @@
 /**
  * Module dependencies.
  */
-
 var express = require('express');
 var routes = require('./routes');
 var user = require('./routes/user');
@@ -21,7 +20,7 @@ var sessionStore = new MongoStore({
     console.log('connect mongodb succeed');
 });
 
-var app = express();
+var app = module.exports = express();
 
 // all environments
 /// 在linux下
@@ -107,8 +106,13 @@ routes(app);
 //app.use(express.router(routes));
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Get environment variable
+var envRunMode = app.get('env');
+if (envRunMode == null)
+    envRunMode = 'development';
+
 // development only
-if ('development' == app.get('env')) {
+if ('development' == envRunMode) {
   app.use(express.errorHandler());
 }
 
@@ -179,6 +183,9 @@ app.put('/users/:username', function(req, res) {
 //--------------------------------------
 */
 
-http.createServer(app).listen(app.get('port'), function(){
-  console.log('Express server listening on port ' + app.get('port'));
-});
+if (!module.parent) {
+//    app.listen(3000);
+    http.createServer(app).listen(app.get('port'), function () {
+        console.log('Express server listening on port %d in %s mode', app.get('port'), envRunMode);
+    });
+}
