@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node cluster.js"
   },
   "dependencies": {
     "express": "3.0.0beta7"
@@ -11,5 +11,6 @@
     , "connect-mongo": ">=0.1.7"
     , "mongodb": ">= 0.9.9"
     , "log4js": "*"
+    , "express-cluster": "0.0.2"
   }
 }

@@ -2,7 +2,7 @@
  * Created by sunboss on 14-7-11.
  * Database Objects
  */
-var settings = require('../settings');
+var settings = require('../config/settings');
 var Db = require('mongodb').Db;
 var Connection = require('mongodb').Connection;
 var Server = require('mongodb').Server;

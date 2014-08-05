@@ -2,6 +2,8 @@
 /*
  * GET home page.
  */
+var log = require('log4js').getLogger("index");
+
 var crypto = require('crypto');
 var User = require('../models/user.js');
 var Post = require('../models/post.js');

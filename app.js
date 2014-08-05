@@ -2,22 +2,40 @@
 /**
  * Module dependencies.
  */
+var log4js = require('log4js');
 var express = require('express');
-var routes = require('./routes');
-var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 var partials = require('express-partials');
 var util = require('util');
 
-var settings = require('./settings');
+// 如果直接启动app.js，则需要在这里配置log
+if (!module.parent) {
+    // make a log directory, just in case it isn't there.
+    try {
+        require('fs').mkdirSync('./log');
+    } catch (e) {
+        if (e.code != 'EEXIST') {
+            console.error("Could not set up log directory, error was: ", e);
+            process.exit(1);
+        }
+    }
+
+    log4js.configure('./config/log4js-settings.json');
+}
+var log = log4js.getLogger("app");
+
+var routes = require('./routes/index');
+var user = require('./routes/user');
+var settings = require('./config/settings');
 var MongoStore = require('connect-mongo')(express);
 var flash = require('connect-flash');
 
 var sessionStore = new MongoStore({
     db : settings.db
 }, function() {
-    console.log('connect mongodb succeed');
+    //console.log('connect mongodb succeed');
+    log.info('connect mongodb succeed');
 });
 
 var app = module.exports = express();
@@ -55,6 +73,10 @@ app.use(express.session({
     },
     store: sessionStore
 }));
+
+// replace this with the log4js connect-logger
+// app.use(logger('dev'));
+app.use(log4js.connectLogger(log4js.getLogger("http"), { level: 'auto' }));
 
 //app.helpers({
 app.locals({
@@ -105,16 +127,6 @@ app.use(function(req, res, next) {
 routes(app);
 //app.use(express.router(routes));
 app.use(express.static(path.join(__dirname, 'public')));
-
-// Get environment variable
-var envRunMode = app.get('env');
-if (envRunMode == null)
-    envRunMode = 'development';
-
-// development only
-if ('development' == envRunMode) {
-  app.use(express.errorHandler());
-}
 
 //--------------------------------------
 // Testing
@@ -183,9 +195,47 @@ app.put('/users/:username', function(req, res) {
 //--------------------------------------
 */
 
+/// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+    var err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+});
+
+// Error handlers
+// Get environment variable
+var envRunMode = app.get('env');
+if (envRunMode == null)
+    envRunMode = 'development';
+
+// development only
+if ('development' === envRunMode) {
+    // we don't need this
+    //app.use(express.errorHandler());
+    app.use(function(err, req, res, next) {
+        log.error("Something went wrong:", err);
+        res.status(err.status || 500);
+        res.render('error', {
+            message: err.message,
+            error: err
+        });
+    });
+}
+
+// production error handler
+// no stacktraces leaked to user
+app.use(function(err, req, res, next) {
+    log.error("Something went wrong:", err);
+    res.status(err.status || 500);
+    res.render('error', {
+        message: err.message,
+        error: {}
+    });
+});
+
 if (!module.parent) {
-//    app.listen(3000);
     http.createServer(app).listen(app.get('port'), function () {
-        console.log('Express server listening on port %d in %s mode', app.get('port'), envRunMode);
+        //console.log('Express server listening on port %d in %s mode', app.get('port'), envRunMode);
+        log.warn('Express server listening on port %d in %s mode', app.get('port'), envRunMode);
     });
 }
