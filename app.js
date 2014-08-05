@@ -23,7 +23,7 @@ if (!module.parent) {
 
     log4js.configure('./config/log4js-settings.json');
 }
-var log = log4js.getLogger("app");
+var log = log4js.getLogger("app:" + process.pid);
 
 var routes = require('./routes/index');
 var user = require('./routes/user');

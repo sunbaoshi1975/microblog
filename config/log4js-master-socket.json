@@ -1,0 +1,22 @@
+{
+    "appenders": [
+      {
+        "type": "logLevelFilter",
+        "level": "DEBUG",
+        "appender": {
+            "type": "multiprocess",
+            "mode": "master",
+            "loggerPort": 5001,
+            "loggerHost": "localhost",
+            "appender":
+                {
+                  "type": "file",
+                  "filename": "log/app.log",
+                  "maxLogSize": 10485760,
+                  "backups": 5,
+                  "pollInterval": 15
+                }
+        }
+      }
+    ]
+}

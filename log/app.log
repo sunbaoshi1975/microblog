@@ -1,0 +1,94 @@
+[2014-08-05 19:41:22.375] [INFO] startup - There are 4 CPU(s) in this server.
+[2014-08-05 19:41:24.134] [WARN] startup - Express server listening on port  3000  with pid  177568
+[2014-08-05 19:41:24.157] [WARN] startup - Express server listening on port  3000  with pid  179452
+[2014-08-05 19:41:24.152] [WARN] startup - Express server listening on port  3000  with pid  179360
+[2014-08-05 19:41:24.190] [INFO] app - connect mongodb succeed
+[2014-08-05 19:41:24.199] [INFO] app - connect mongodb succeed
+[2014-08-05 19:41:24.214] [WARN] startup - Express server listening on port  3000  with pid  180008
+[2014-08-05 19:41:24.251] [INFO] app - connect mongodb succeed
+[2014-08-05 19:41:24.251] [INFO] app - connect mongodb succeed
+[2014-08-05 19:45:39.659] [INFO] startup - There are 4 CPU(s) in this server.
+[2014-08-05 19:45:41.402] [WARN] startup - Express server listening on port  3000  with pid  179056
+[2014-08-05 19:45:41.405] [WARN] startup - Express server listening on port  3000  with pid  179976
+[2014-08-05 19:45:41.440] [INFO] app - connect mongodb succeed
+[2014-08-05 19:45:41.449] [INFO] app - connect mongodb succeed
+[2014-08-05 19:45:41.447] [WARN] startup - Express server listening on port  3000  with pid  157260
+[2014-08-05 19:45:41.495] [WARN] startup - Express server listening on port  3000  with pid  178080
+[2014-08-05 19:45:41.510] [INFO] app - connect mongodb succeed
+[2014-08-05 19:45:41.524] [INFO] app - connect mongodb succeed
+[2014-08-05 20:01:01.140] [INFO] startup - There are 4 CPU(s) in this server.
+[2014-08-05 20:01:02.990] [WARN] startup - Express server listening on port  3000  with pid  180796
+[2014-08-05 20:01:03.019] [WARN] startup - Express server listening on port  3000  with pid  180336
+[2014-08-05 20:01:03.029] [INFO] app - connect mongodb succeed
+[2014-08-05 20:01:03.048] [INFO] app - connect mongodb succeed
+[2014-08-05 20:01:03.093] [WARN] startup - Express server listening on port  3000  with pid  180256
+[2014-08-05 20:01:03.114] [WARN] startup - Express server listening on port  3000  with pid  180884
+[2014-08-05 20:01:03.123] [INFO] app - connect mongodb succeed
+[2014-08-05 20:01:03.151] [INFO] app - connect mongodb succeed
+[2014-08-05 20:06:40.340] [INFO] startup - There are 4 CPU(s) in this server.
+[2014-08-05 20:06:42.018] [WARN] startup - Express server listening on port  3000  with pid  182080
+[2014-08-05 20:06:42.077] [INFO] app - connect mongodb succeed
+[2014-08-05 20:06:42.172] [WARN] startup - Express server listening on port  3000  with pid  182172
+[2014-08-05 20:06:42.211] [INFO] app - connect mongodb succeed
+[2014-08-05 20:06:42.231] [WARN] startup - Express server listening on port  3000  with pid  182108
+[2014-08-05 20:06:42.234] [INFO] app - connect mongodb succeed
+[2014-08-05 20:06:42.359] [WARN] startup - Express server listening on port  3000  with pid  182048
+[2014-08-05 20:06:42.386] [INFO] app - connect mongodb succeed
+[2014-08-05 20:21:36.553] [INFO] startup - There are 4 CPU(s) in this server.
+[2014-08-05 20:21:38.128] [WARN] startup - Express server listening on port  3000  with pid  183076
+[2014-08-05 20:21:38.253] [WARN] startup - Express server listening on port  3000  with pid  183048
+[2014-08-05 20:21:38.298] [WARN] startup - Express server listening on port  3000  with pid  183060
+[2014-08-05 20:21:38.314] [WARN] startup - Express server listening on port  3000  with pid  183068
+[2014-08-05 20:23:04.143] [INFO] startup - There are 4 CPU(s) in this server.
+[2014-08-05 20:24:16.130] [INFO] startup - There are 4 CPU(s) in this server.
+[2014-08-05 20:24:17.769] [WARN] startup - Express server listening on port  3000  with pid  165980
+[2014-08-05 20:24:17.820] [INFO] app:165980 - connect mongodb succeed
+[2014-08-05 20:24:17.842] [WARN] startup - Express server listening on port  3000  with pid  182512
+[2014-08-05 20:24:17.874] [INFO] app:182512 - connect mongodb succeed
+[2014-08-05 20:24:17.976] [WARN] startup - Express server listening on port  3000  with pid  179784
+[2014-08-05 20:24:18.026] [INFO] app:179784 - connect mongodb succeed
+[2014-08-05 20:24:18.027] [WARN] startup - Express server listening on port  3000  with pid  181012
+[2014-08-05 20:24:18.048] [INFO] app:181012 - connect mongodb succeed
+[2014-08-05 20:25:53.797] [ERROR] app:181012 - Something went wrong: { stack: 'Error: db object already connecting, open cannot be called multiple times\n    at Db.open (D:\\4 - Works\\GitHub\\microblog\\node_modules\\mongodb\\lib\\mongodb\\db.js:256:11)\n    at Function.get (D:\\4 - Works\\GitHub\\microblog\\models\\post.js:46:13)\n    at D:\\4 - Works\\GitHub\\microblog\\routes\\index.js:14:14\n    at callbacks (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\lib\\router\\index.js:165:11)\n    at param (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\lib\\router\\index.js:139:11)\n    at pass (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\lib\\router\\index.js:146:5)\n    at Router._dispatch (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\lib\\router\\index.js:173:5)\n    at Object.router (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\lib\\router\\index.js:33:10)\n    at next (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\node_modules\\connect\\lib\\proto.js:190:15)\n    at Object.handle (D:\\4 - Works\\GitHub\\microblog\\app.js:122:5)' }
+[2014-08-05 20:25:53.845] [ERROR] app:181012 - Something went wrong: { view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs' } }
+[2014-08-05 20:25:53.855] [INFO] http - 127.0.0.1 - - "GET / HTTP/1.1" 500 1077 "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:08.040] [ERROR] http - 127.0.0.1 - - "GET / HTTP/1.1" 200 2728 "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:08.156] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 22102 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:08.166] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 200 127343 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:08.176] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 200 61884 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:08.253] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 200 282766 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:08.738] [INFO] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 200 12799 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:10.516] [INFO] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:10.529] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:10.531] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:10.534] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:10.536] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:10.668] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:15.672] [WARN] http - 127.0.0.1 - - "GET /login HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:15.704] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:15.704] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:15.706] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:15.708] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:15.901] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:17.165] [WARN] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:17.218] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:17.219] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:17.220] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:17.221] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:17.337] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.284] [WARN] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.306] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.314] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.315] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.317] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.483] [WARN] http - undefined - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.710] [WARN] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.722] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.722] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.788] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.790] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-05 20:26:18.802] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"

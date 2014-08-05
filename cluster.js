@@ -20,8 +20,8 @@ try {
  * Initialise log4js first, so we don't miss any log messages
  */
 var log4js = require('log4js');
-log4js.configure('./config/log4js-settings.json');
 
+log4js.configure('./config/log4js-settings.json');
 var log = log4js.getLogger("startup");
 
 // 获取CPU数量
@@ -31,8 +31,9 @@ var numCPUs = os.cpus().length;
 var workers = {};
 if (cluster.isMaster) {
     // 主进程分支
-    cluster.on('death', function(worker) {
+    cluster.on('death', function(worker) {      // or 'exit' ?
         // 当一个进程结束时，重启工作进程，以保持进程数量不变
+        log.warn('Express server worker pid %d dead', worker.pid);
         delete workers[worker.pid];
         worker = cluster.fork();
         workers[worker.pid] = worker;
@@ -51,7 +52,7 @@ if (cluster.isMaster) {
     app.set('port', process.env.PORT || 3000);
     var server = app.listen(app.get('port'), function() {
         //console.log('Express server process id %d listening on port %d', process.pid, app.get('port'));
-        log.warn('Express server listening on port ', server.address().port, " with pid ", process.pid );
+        log.warn('Express server listening on port ', server.address().port, " with pid ", process.pid);
     });
 }
 

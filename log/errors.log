@@ -1,0 +1,7 @@
+[2014-08-05 20:25:53.797] [ERROR] app:181012 - Something went wrong: { stack: 'Error: db object already connecting, open cannot be called multiple times\n    at Db.open (D:\\4 - Works\\GitHub\\microblog\\node_modules\\mongodb\\lib\\mongodb\\db.js:256:11)\n    at Function.get (D:\\4 - Works\\GitHub\\microblog\\models\\post.js:46:13)\n    at D:\\4 - Works\\GitHub\\microblog\\routes\\index.js:14:14\n    at callbacks (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\lib\\router\\index.js:165:11)\n    at param (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\lib\\router\\index.js:139:11)\n    at pass (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\lib\\router\\index.js:146:5)\n    at Router._dispatch (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\lib\\router\\index.js:173:5)\n    at Object.router (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\lib\\router\\index.js:33:10)\n    at next (D:\\4 - Works\\GitHub\\microblog\\node_modules\\express\\node_modules\\connect\\lib\\proto.js:190:15)\n    at Object.handle (D:\\4 - Works\\GitHub\\microblog\\app.js:122:5)' }
+[2014-08-05 20:25:53.845] [ERROR] app:181012 - Something went wrong: { view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs' } }
+[2014-08-05 20:26:08.040] [ERROR] http - 127.0.0.1 - - "GET / HTTP/1.1" 200 2728 "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
