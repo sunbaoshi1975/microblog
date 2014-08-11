@@ -34,20 +34,18 @@
                         <% } %>
                     </ul>
                 </div>
-                <form class="navbar-form pull-right">
-                    <ul class="nav nav-pills">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                <%= lingua.navigation.language %>
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="?language=cn"><%= lingua.navigation.chinese %></a></li>
-                                <li><a href="?language=en"><%= lingua.navigation.english %></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </form>
+                <ul class="nav pull-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <%= lingua.navigation.language %>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="?language=cn"><%= lingua.navigation.chinese %></a></li>
+                            <li><a href="?language=en"><%= lingua.navigation.english %></a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
