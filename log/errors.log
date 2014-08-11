@@ -5,3 +5,242 @@
      defaultEngine: 'ejs',
      ext: '.ejs' } }
 [2014-08-05 20:26:08.040] [ERROR] http - 127.0.0.1 - - "GET / HTTP/1.1" 200 2728 "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:21.651] [ERROR] app:13296 - Something went wrong: { [ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined] path: 'D:\\4 - Works\\GitHub\\microblog\\views\\reg.ejs' }
+ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:576)
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:1508)
+    at D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at D:\4 - Works\GitHub\microblog\routes\index.js:27:13
+[2014-08-11 12:09:21.658] [ERROR] app:13296 - Something went wrong: { [Error: Failed to lookup view "error"]
+  view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "error"
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at Object.app.use.res.render.message [as handle] (D:\4 - Works\GitHub\microblog\app.js:226:13)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:185:17)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at IncomingMessage.next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:60:39
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:506:5)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+[2014-08-11 12:09:34.089] [ERROR] app:13296 - Something went wrong: { [ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined] path: 'D:\\4 - Works\\GitHub\\microblog\\views\\reg.ejs' }
+ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:576)
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:1508)
+    at D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at D:\4 - Works\GitHub\microblog\routes\index.js:27:13
+[2014-08-11 12:09:34.091] [ERROR] app:13296 - Something went wrong: { [Error: Failed to lookup view "error"]
+  view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "error"
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at Object.app.use.res.render.message [as handle] (D:\4 - Works\GitHub\microblog\app.js:226:13)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:185:17)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at IncomingMessage.next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:60:39
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:506:5)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+[2014-08-11 12:09:34.097] [ERROR] http - 127.0.0.1 - - "GET /reg HTTP/1.1" 500 1077 "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:52.552] [ERROR] app:13296 - Something went wrong: { [ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined] path: 'D:\\4 - Works\\GitHub\\microblog\\views\\reg.ejs' }
+ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:576)
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:1508)
+    at D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at D:\4 - Works\GitHub\microblog\routes\index.js:27:13
+[2014-08-11 12:09:52.563] [ERROR] app:13296 - Something went wrong: { [Error: Failed to lookup view "error"]
+  view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "error"
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at Object.app.use.res.render.message [as handle] (D:\4 - Works\GitHub\microblog\app.js:226:13)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:185:17)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at IncomingMessage.next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:60:39
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:506:5)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+[2014-08-11 12:09:52.572] [ERROR] http - 127.0.0.1 - - "GET /reg HTTP/1.1" 500 1077 "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:56.558] [ERROR] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:58.519] [ERROR] app:13296 - Something went wrong: { [ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined] path: 'D:\\4 - Works\\GitHub\\microblog\\views\\reg.ejs' }
+ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:576)
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:1508)
+    at D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at D:\4 - Works\GitHub\microblog\routes\index.js:27:13
+[2014-08-11 12:09:58.526] [ERROR] app:13296 - Something went wrong: { [Error: Failed to lookup view "error"]
+  view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "error"
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at Object.app.use.res.render.message [as handle] (D:\4 - Works\GitHub\microblog\app.js:226:13)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:185:17)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at IncomingMessage.next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:60:39
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:506:5)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+[2014-08-11 12:10:02.295] [ERROR] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:11.319] [ERROR] app:13296 - Something went wrong: { [ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined] path: 'D:\\4 - Works\\GitHub\\microblog\\views\\reg.ejs' }
+ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:576)
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:1508)
+    at D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at D:\4 - Works\GitHub\microblog\routes\index.js:27:13
+[2014-08-11 12:10:11.324] [ERROR] app:13296 - Something went wrong: { [Error: Failed to lookup view "error"]
+  view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "error"
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at Object.app.use.res.render.message [as handle] (D:\4 - Works\GitHub\microblog\app.js:226:13)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:185:17)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at IncomingMessage.next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:60:39
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:506:5)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)

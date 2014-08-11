@@ -92,3 +92,540 @@
 [2014-08-05 20:26:18.788] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
 [2014-08-05 20:26:18.790] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
 [2014-08-05 20:26:18.802] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:07:59.746] [WARN] app:13296 - Express server listening on port 3000 in development mode
+[2014-08-11 12:07:59.877] [INFO] app:13296 - connect mongodb succeed
+[2014-08-11 12:08:11.005] [INFO] http - 127.0.0.1 - - "GET / HTTP/1.1" 200 3050 "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:11.439] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:11.441] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:11.472] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:11.476] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:12.080] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:27.237] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 200 3050 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:27.311] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:27.316] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:27.323] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:27.324] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:27.485] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:35.282] [WARN] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 200 3050 "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:35.341] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:35.363] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:35.365] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:35.367] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:35.650] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:40.266] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:40.305] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:40.311] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:40.345] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:40.347] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:40.609] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:42.109] [WARN] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:42.153] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:42.186] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:42.188] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:42.191] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:42.476] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:42.931] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:42.975] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:42.984] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:42.985] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:42.988] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:43.094] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:44.378] [WARN] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:44.418] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:44.420] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:44.427] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:44.434] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:44.558] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:46.951] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:46.994] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:46.998] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:47.052] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:47.054] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:47.313] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:48.177] [WARN] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:48.215] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:48.218] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:48.239] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:48.246] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:08:48.368] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:17.671] [WARN] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:17.713] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:17.721] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:17.732] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:17.735] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:18.034] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:19.060] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:19.106] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:19.109] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:19.111] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:19.112] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:19.243] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:19.898] [WARN] http - 127.0.0.1 - - "GET /login HTTP/1.1" 200 2730 "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:19.931] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:19.933] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:19.935] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:19.936] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:20.080] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:21.651] [ERROR] app:13296 - Something went wrong: { [ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined] path: 'D:\\4 - Works\\GitHub\\microblog\\views\\reg.ejs' }
+ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:576)
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:1508)
+    at D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at D:\4 - Works\GitHub\microblog\routes\index.js:27:13
+[2014-08-11 12:09:21.658] [ERROR] app:13296 - Something went wrong: { [Error: Failed to lookup view "error"]
+  view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "error"
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at Object.app.use.res.render.message [as handle] (D:\4 - Works\GitHub\microblog\app.js:226:13)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:185:17)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at IncomingMessage.next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:60:39
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:506:5)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+[2014-08-11 12:09:21.670] [WARN] http - 127.0.0.1 - - "GET /reg HTTP/1.1" 500 1077 "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:34.089] [ERROR] app:13296 - Something went wrong: { [ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined] path: 'D:\\4 - Works\\GitHub\\microblog\\views\\reg.ejs' }
+ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:576)
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:1508)
+    at D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at D:\4 - Works\GitHub\microblog\routes\index.js:27:13
+[2014-08-11 12:09:34.091] [ERROR] app:13296 - Something went wrong: { [Error: Failed to lookup view "error"]
+  view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "error"
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at Object.app.use.res.render.message [as handle] (D:\4 - Works\GitHub\microblog\app.js:226:13)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:185:17)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at IncomingMessage.next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:60:39
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:506:5)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+[2014-08-11 12:09:34.097] [ERROR] http - 127.0.0.1 - - "GET /reg HTTP/1.1" 500 1077 "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:52.552] [ERROR] app:13296 - Something went wrong: { [ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined] path: 'D:\\4 - Works\\GitHub\\microblog\\views\\reg.ejs' }
+ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:576)
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:1508)
+    at D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at D:\4 - Works\GitHub\microblog\routes\index.js:27:13
+[2014-08-11 12:09:52.563] [ERROR] app:13296 - Something went wrong: { [Error: Failed to lookup view "error"]
+  view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "error"
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at Object.app.use.res.render.message [as handle] (D:\4 - Works\GitHub\microblog\app.js:226:13)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:185:17)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at IncomingMessage.next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:60:39
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:506:5)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+[2014-08-11 12:09:52.572] [ERROR] http - 127.0.0.1 - - "GET /reg HTTP/1.1" 500 1077 "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:56.558] [ERROR] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:56.582] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:56.584] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:56.591] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:56.600] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:56.997] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:09:58.519] [ERROR] app:13296 - Something went wrong: { [ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined] path: 'D:\\4 - Works\\GitHub\\microblog\\views\\reg.ejs' }
+ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:576)
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:1508)
+    at D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at D:\4 - Works\GitHub\microblog\routes\index.js:27:13
+[2014-08-11 12:09:58.526] [ERROR] app:13296 - Something went wrong: { [Error: Failed to lookup view "error"]
+  view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "error"
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at Object.app.use.res.render.message [as handle] (D:\4 - Works\GitHub\microblog\app.js:226:13)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:185:17)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at IncomingMessage.next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:60:39
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:506:5)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+[2014-08-11 12:09:58.534] [WARN] http - 127.0.0.1 - - "GET /reg HTTP/1.1" 500 1077 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:02.295] [ERROR] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:02.321] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:02.328] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:02.332] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:02.334] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:02.723] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:04.136] [WARN] http - 127.0.0.1 - - "GET /login HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:04.176] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:04.182] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:04.189] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:04.190] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:04.309] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:10:11.319] [ERROR] app:13296 - Something went wrong: { [ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined] path: 'D:\\4 - Works\\GitHub\\microblog\\views\\reg.ejs' }
+ReferenceError: D:\4 - Works\GitHub\microblog\views\reg.ejs:8
+    6|             <div class="controls">
+    7|                 <input type="text" class="input-xlarge" id="username" name="username" value="<%= username %>">
+ >> 8|                 <p class="help-block"><%= lingua.reg.username-tip %></p>
+    9|             </div>
+    10|         </div>
+    11|         <div class="control-group">
+
+tip is not defined
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:576)
+    at eval (eval at <anonymous> (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:29:1508)
+    at D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (D:\4 - Works\GitHub\microblog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at D:\4 - Works\GitHub\microblog\routes\index.js:27:13
+[2014-08-11 12:10:11.324] [ERROR] app:13296 - Something went wrong: { [Error: Failed to lookup view "error"]
+  view: 
+   { name: 'error',
+     root: 'D:\\4 - Works\\GitHub\\microblog\\views',
+     defaultEngine: 'ejs',
+     ext: '.ejs',
+     engine: [Function],
+     path: undefined } }
+Error: Failed to lookup view "error"
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+    at ServerResponse.res.render (D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:58:9)
+    at Object.app.use.res.render.message [as handle] (D:\4 - Works\GitHub\microblog\app.js:226:13)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:185:17)
+    at next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at IncomingMessage.next (D:\4 - Works\GitHub\microblog\node_modules\express\node_modules\connect\lib\proto.js:187:11)
+    at D:\4 - Works\GitHub\microblog\node_modules\express-partials\index.js:60:39
+    at Function.app.render (D:\4 - Works\GitHub\microblog\node_modules\express\lib\application.js:506:5)
+    at ServerResponse.res.render [as partial] (D:\4 - Works\GitHub\microblog\node_modules\express\lib\response.js:601:7)
+[2014-08-11 12:10:11.334] [WARN] http - 127.0.0.1 - - "GET /reg HTTP/1.1" 500 1077 "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:04.795] [WARN] app:10544 - Express server listening on port 3000 in development mode
+[2014-08-11 12:13:04.813] [INFO] app:10544 - connect mongodb succeed
+[2014-08-11 12:13:11.682] [INFO] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:11.712] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:11.716] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:11.718] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:11.719] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:12.055] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:13.577] [WARN] http - 127.0.0.1 - - "GET /reg HTTP/1.1" 200 3117 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:13.644] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:13.659] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:13.662] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:13.665] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 12:13:13.932] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:07:59.881] [WARN] app:16360 - Express server listening on port 3000 in development mode
+[2014-08-11 15:07:59.899] [INFO] app:16360 - connect mongodb succeed
+[2014-08-11 15:08:06.199] [INFO] http - 127.0.0.1 - - "GET / HTTP/1.1" 200 3037 "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:06.226] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:06.228] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:06.229] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:06.230] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:06.326] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:09.299] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 200 3037 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:09.334] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:09.342] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:09.347] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:09.348] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:09.461] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:12.844] [WARN] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:12.883] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:12.888] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:12.896] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:12.897] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:13.015] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:16.872] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:16.927] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:16.948] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:16.949] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:16.957] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:17.256] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:31.352] [WARN] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:31.387] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:31.422] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:31.425] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:31.426] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:31.739] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:37.052] [WARN] http - 127.0.0.1 - - "GET /login HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:37.109] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:37.139] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:37.141] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:37.142] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:37.488] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:46.302] [WARN] http - 127.0.0.1 - - "POST /login HTTP/1.1" 302 100 "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:46.353] [WARN] http - 127.0.0.1 - - "GET / HTTP/1.1" 200 3004 "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:46.380] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:46.395] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:46.406] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:46.408] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:46.576] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:46.634] [INFO] http - 127.0.0.1 - - "GET /img/glyphicons-halflings-white.png HTTP/1.1" 200 8777 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:52.315] [INFO] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 200 2891 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:52.356] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:52.363] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:52.364] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:52.367] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:52.497] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings-white.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:08:52.505] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:12:52.099] [WARN] app:12168 - Express server listening on port 3000 in development mode
+[2014-08-11 15:12:52.117] [INFO] app:12168 - connect mongodb succeed
+[2014-08-11 15:12:57.063] [INFO] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 200 2905 "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:12:57.089] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:12:57.092] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:12:57.094] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:12:57.096] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:12:57.220] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings-white.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:12:57.236] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:13:05.314] [WARN] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 200 2906 "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:13:05.361] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:13:05.372] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:13:05.375] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:13:05.376] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:13:05.499] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings-white.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:13:05.518] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:00.146] [WARN] app:16988 - Express server listening on port 3000 in development mode
+[2014-08-11 15:36:00.168] [INFO] app:16988 - connect mongodb succeed
+[2014-08-11 15:36:06.888] [INFO] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 200 3448 "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:06.936] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 22102 "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:06.949] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 200 127343 "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:06.955] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 200 61884 "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:07.121] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 200 282766 "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:07.484] [INFO] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:18.776] [WARN] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:18.788] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:18.790] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:18.793] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:18.794] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:18.913] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:22.840] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 200 3442 "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:22.882] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:22.892] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:22.896] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:22.903] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:23.002] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:52.213] [WARN] app:16296 - Express server listening on port 3000 in development mode
+[2014-08-11 15:36:52.235] [INFO] app:16296 - connect mongodb succeed
+[2014-08-11 15:36:54.376] [INFO] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 200 3444 "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:54.409] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:54.413] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:54.415] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:54.417] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:54.544] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:57.756] [WARN] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 200 3446 "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:57.793] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:57.795] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:57.796] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:57.802] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:36:57.931] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:00.479] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:00.516] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:00.526] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:00.529] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:00.536] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:00.661] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:23.117] [WARN] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:23.162] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:23.164] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:23.166] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:23.181] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:23.310] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:26.280] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:26.315] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:26.351] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:26.353] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:26.354] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:37:26.718] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:08.058] [WARN] app:14292 - Express server listening on port 3000 in development mode
+[2014-08-11 15:38:08.077] [INFO] app:14292 - connect mongodb succeed
+[2014-08-11 15:38:10.045] [INFO] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 200 3443 "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:10.079] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 200 61884 "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:10.093] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 200 127343 "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:10.099] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 200 22102 "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:10.106] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 200 282766 "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:10.491] [INFO] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:14.475] [WARN] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 200 3446 "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:14.489] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:14.493] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:14.497] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:14.498] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:14.624] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:17.089] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:17.119] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:17.124] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:17.126] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:17.129] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:17.620] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:19.539] [WARN] http - 127.0.0.1 - - "GET /?language=cn HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:19.592] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:19.609] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:19.610] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:19.611] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:19.963] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:21.194] [WARN] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:21.239] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:21.286] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:21.292] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:21.294] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:38:21.407] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:49:33.320] [WARN] app:9656 - Express server listening on port 3000 in development mode
+[2014-08-11 15:49:33.345] [INFO] app:9656 - connect mongodb succeed
+[2014-08-11 15:49:39.053] [INFO] http - 127.0.0.1 - - "GET /?language=en HTTP/1.1" 200 3455 "" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:49:39.077] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:49:39.079] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:49:39.081] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:49:39.084] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:49:39.217] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:38.800] [WARN] http - 127.0.0.1 - - "GET /login HTTP/1.1" 200 3143 "http://127.0.0.1:3000/?language=en" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:38.847] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:38.854] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:38.856] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:38.857] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:38.995] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:42.710] [WARN] http - 127.0.0.1 - - "GET /login?language=cn HTTP/1.1" 200 3147 "http://127.0.0.1:3000/login" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:42.762] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:42.778] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/login?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:42.781] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:42.793] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/login?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:42.904] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/login?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:45.358] [WARN] http - 127.0.0.1 - - "GET / HTTP/1.1" 200 3458 "http://127.0.0.1:3000/login?language=cn" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:45.397] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:45.402] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:45.405] [INFO] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:45.406] [INFO] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:45.521] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:47.680] [WARN] http - 127.0.0.1 - - "GET /reg HTTP/1.1" 200 3534 "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:47.727] [INFO] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:47.771] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:47.779] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:47.792] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:47.875] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:50.611] [WARN] http - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "http://127.0.0.1:3000/reg" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:50.642] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:50.650] [WARN] http - 127.0.0.1 - - "GET /stylesheets/bootstrap-responsive.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:50.652] [WARN] http - 127.0.0.1 - - "GET /javascripts/jquery.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:50.654] [WARN] http - 127.0.0.1 - - "GET /javascripts/bootstrap.js HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"
+[2014-08-11 15:50:50.778] [WARN] http - 127.0.0.1 - - "GET /img/glyphicons-halflings.png HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) LBBROWSER"

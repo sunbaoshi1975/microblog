@@ -8,6 +8,7 @@ var http = require('http');
 var path = require('path');
 var partials = require('express-partials');
 var util = require('util');
+var lingua = require('lingua');
 
 // 如果直接启动app.js，则需要在这里配置log
 if (!module.parent) {
@@ -51,6 +52,12 @@ var app = module.exports = express();
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+
+// Get lingua initialized
+app.use(lingua(app, {
+    defaultLocale: 'cn',
+    path: __dirname + '/i18n'
+}));
 
 // 没作用
 // app.set('view options', {

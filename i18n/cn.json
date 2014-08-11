@@ -1,0 +1,41 @@
+{
+    "title": "Microblog",
+    "company": "Smartac",
+    "navigation": {
+        "language": "中文",
+        "chinese": "中文",
+        "english": "English"
+    },
+    "layout": {
+        "title": "首页"
+    },
+    "index": {
+        "title": "欢迎光临 Microblog.",
+        "description": "Microblog是基于Node.js开发的演示系统",
+        "login": "登入",
+        "logout": "登出",
+        "register": "现在注册"
+    },
+    "login": {
+        "title": "用户登入",
+        "username": "用户名",
+        "password": "口令",
+        "logon": "登入"
+    },
+    "reg": {
+        "title": "用户注册",
+        "username": "用户名",
+        "usernametip": "您的账户名称，用于登录和显示。",
+        "password": "口令",
+        "repeatpassword": "重复输入口令",
+        "register": "注册"
+    },
+    "post": {
+        "title": "Post",
+        "post": "说"
+    },
+    "say": {
+        "title": "Say",
+        "post": "发表"
+    }
+}

@@ -1,10 +1,10 @@
 <% if (!user) { %>
     <div class="hero-unit">
-        <h1>Welcome to Microblog</h1>
-        <p>Microblog is a demo system written in Node.js</p>
+        <h1><%= lingua.index.title %></h1>        <!-- Welcome to Microblog -->
+        <p><%= lingua.index.description %></p>
         <p>
-            <a class="btn btn-primary btn-large" href="/login">Login</a>
-            <a class="btn btn-large" href="/reg">Register Now</a>
+            <a class="btn btn-primary btn-large" href="/login"><%= lingua.index.login %></a>
+            <a class="btn btn-large" href="/reg"><%= lingua.index.register %></a>
         </p>
     </div>
 <% } else { %>

@@ -12,5 +12,6 @@
     , "mongodb": ">= 0.9.9"
     , "log4js": "*"
     , "express-cluster": "0.0.2"
+    , "lingua": "*"
   }
 }

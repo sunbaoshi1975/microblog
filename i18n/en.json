@@ -1,0 +1,41 @@
+{
+    "title": "Microblog",
+    "company": "Smartac",
+    "navigation": {
+        "language": "English",
+        "chinese": "中文",
+        "english": "English"
+    },
+    "layout": {
+        "title": "Home"
+    },
+    "index": {
+        "title": "Welcome to Microblog.",
+        "description": "Microblog is a demo system written in Node.js",
+        "login": "Login",
+        "logout": "Logout",
+        "register": "Register Now"
+    },
+    "login": {
+        "title": "User Login",
+        "username": "Username",
+        "password": "Password",
+        "logon": "Login"
+    },
+    "reg": {
+        "title": "Registration",
+        "username": "Username",
+        "usernametip": "User account id for login and display.",
+        "password": "Password",
+        "repeatpassword": "Repeat Password",
+        "register": "Register"
+    },
+    "post": {
+        "title": "Post",
+        "post": "said"
+    },
+    "say": {
+        "title": "Say",
+        "post": "Post"
+    }
+}
