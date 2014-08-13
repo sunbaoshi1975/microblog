@@ -11,7 +11,7 @@ function Post(username, post, time) {
     } else {
         this.time = new Date();
     }
-};
+}
 module.exports = Post;
 
 Post.prototype.save = function save(callback) {

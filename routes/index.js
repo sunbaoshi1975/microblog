@@ -7,7 +7,8 @@ var log = require('log4js').getLogger("index");
 var crypto = require('crypto');
 var User = require('../models/user.js');
 var Post = require('../models/post.js');
-var inputValid = require('../mypackage/inputValidation.js');
+var InputValid = require('../mypackage/inputValidation.js');
+var inputValid = new InputValid();
 
 module.exports = function(app) {
     app.get('/', function(req, res) {
@@ -32,7 +33,7 @@ module.exports = function(app) {
     app.post('/reg', checkNotLogin);
     app.post('/reg', function(req, res) {
         // 验证用户名有效性
-        inputValid.testUsername(req.body['username'], function(err) {
+        inputValid.testUsername(req.body.username, function(err) {
             if (err) {
                 switch (err) {
                     case 'errIsNull':
@@ -57,15 +58,15 @@ module.exports = function(app) {
             }
 
             // 设置临时数据，用于页面刷新时显示
-            req.flash('username', req.body['username']);
+            req.flash('username', req.body.username);
 
             // 检验用户两次输入的口令是否一致
-            if (req.body['password-repeat'] != req.body['password']) {
+            if (req.body['password-repeat'] != req.body.password) {
                 req.flash('error', '两次输入的密码不一致');
                 return res.redirect('/reg');
             }
             // 验证口令有效性
-            inputValid.testPassword(req.body['password'], function(err) {
+            inputValid.testPassword(req.body.password, function(err) {
                 if (err) {
                     switch (err) {
                         case 'errIsNull':

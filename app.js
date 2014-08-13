@@ -212,7 +212,7 @@ app.use(function(req, res, next) {
 // Error handlers
 // Get environment variable
 var envRunMode = app.get('env');
-if (envRunMode == null)
+if (envRunMode === null)
     envRunMode = 'development';
 
 // development only
